@@ -72,15 +72,14 @@ a{
 
 .container {
     margin: 130px auto 0;
-    height: 900px;
     text-transform: uppercase;
     z-index: 1;
     
 }
 .card {
-    background: none;
+    background: rgba(0, 0, 0, 0.07);
     border: none;
-   
+   padding: 10px 20px;
 }
 p {
     font-style: normal;
@@ -92,7 +91,8 @@ p {
 }
 
 #pic {
-    max-height: 18em !important;
+    max-height: 220px !important;
+    width: 100%;
 }
 
 #footer-rectangle {
