@@ -14,7 +14,7 @@ body {
   background-attachment: fixed;
   font-family: 'Lato', sans-serif;
   margin: 0; 
-  overflow: auto;
+  overflow-y: auto;
 }
 #logo{
     font-family: 'Pacifico', cursive;
@@ -71,8 +71,7 @@ a{
 }
 
 .container {
-    margin: 130px auto;
-    max-width: 1200px;
+    margin: 130px auto 0;
     height: 900px;
     text-transform: uppercase;
     z-index: 1;
@@ -89,6 +88,14 @@ p {
     font-size: 17px;
     line-height: 25px;
     color: #0A2260;
+    word-spacing: 5px;
 }
 
+#pic {
+    max-height: 18em !important;
+}
 
+#footer-rectangle {
+    height: 159px;
+    background: rgba(48, 70, 89, 0.45);
+}
